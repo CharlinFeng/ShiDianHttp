@@ -3,8 +3,8 @@
 
 一、基本说明：
 ========
-IDE：Mac Android Studio 2.2.3
-系统：Android 4.0及以上
+.IDE：Mac Android Studio 2.2.3 <br/>
+.系统：Android 4.0及以上
 
 二、集成步骤：
 ========
