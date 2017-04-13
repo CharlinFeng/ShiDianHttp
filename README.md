@@ -1,13 +1,13 @@
 # ShiDianHttp
 基于Volley的网络请求框架 （浓郁的iOS风格）
-<br/><br/>
 
+<br/><br/>
 一、基本说明：
 ========
 .IDE：Mac Android Studio 2.2.3 <br/>
 .系统：Android 4.0及以上
-<br/><br/>
 
+<br/><br/>
 二、集成步骤：
 ========
 1.下载加框并导入 shidian.com.shidianhttp 这个 package<br/>
