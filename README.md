@@ -6,7 +6,7 @@
 IDE：Mac Android Studio 2.2.3
 系统：Android 4.0及以上
 
-二、集成步步奏：
+二、集成步骤：
 ========
 1.下载加框并导入 shidian.com.shidianhttp 这个 package
 2.内部使用了自定义的Application，需要在androidmanifest.xml中定义默认实例化的Application名字为：APPApplication
@@ -16,7 +16,8 @@ IDE：Mac Android Studio 2.2.3
 三、快速使用：
 ========
 
-    #### 1.GET请求（url链接，map参数, delegatel回调）：
+#### 1.GET请求（url链接，map参数, delegatel回调）：
+    
     ShiDianHttp.GET(url, map, new ShiDianHttpDelegate() {
 
        @Override
@@ -30,7 +31,8 @@ IDE：Mac Android Studio 2.2.3
       }
     });
 
-    #### 2.POST请求（url链接，map参数, delegatel回调）：
+
+#### 2.POST请求（url链接，map参数, delegatel回调）：
     
     ShiDianHttp.POST(url, map, new ShiDianHttpDelegate() {
         @Override
