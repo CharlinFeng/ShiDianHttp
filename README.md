@@ -20,25 +20,25 @@ Android：支持4.0及以上版本
 ========
 <br/>
 
-#### 1.GET请求（url链接，map参数, delegatel回调）：
+#### 1. GET请求（url链接，map参数, delegatel回调）：
     
     ShiDianHttp.GET(url, map, new ShiDianHttpDelegate() {
 
        @Override
-          public void successBlock(String dataString) {
+       public void successBlock(String dataString) {
           Log.d("charlin", "====请求成功:" + dataString);
         }
 
-        @Override
-          public void errorBlock(String dataString) {
+       @Override
+       public void errorBlock(String dataString) {
           Log.d("charlin", "=====请求失败:" + dataString);
-      }
+       }
     });
 
 <br/>
 
 
-#### 2.POST请求（url链接，map参数, delegatel回调）：
+#### 2. POST请求（url链接，map参数, delegatel回调）：
     
     ShiDianHttp.POST(url, map, new ShiDianHttpDelegate() {
         @Override
