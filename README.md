@@ -33,7 +33,7 @@ Android：支持4.0及以上版本
        public void errorBlock(String dataString) {
           Log.d("charlin", "=====请求失败:" + dataString);
        }
-     });
+    });
 
 <br/>
 
