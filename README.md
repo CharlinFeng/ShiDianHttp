@@ -8,9 +8,9 @@
 
 二、集成步骤：
 ========
-1.下载加框并导入 shidian.com.shidianhttp 这个 package
-2.内部使用了自定义的Application，需要在androidmanifest.xml中定义默认实例化的Application名字为：APPApplication
-3.在build.gradle中添加依赖：compile 'com.mcxiaoke.volley:library:1.0.19'
+1.下载加框并导入 shidian.com.shidianhttp 这个 package<br/>
+2.内部使用了自定义的Application，需要在androidmanifest.xml中定义默认实例化的Application名字为：APPApplication<br/>
+3.在build.gradle中添加依赖：compile 'com.mcxiaoke.volley:library:1.0.19'<br/>
 
 
 三、快速使用：
