@@ -4,8 +4,8 @@
 <br/><br/>
 一、基本说明：
 ========
-.IDE：Mac Android Studio 2.2.3 <br/>
-.系统：Android 4.0及以上
+IDE：Mac Android Studio 2.2.3 <br/>
+Android：支持4.0及以上版本
 
 <br/><br/>
 二、集成步骤：
@@ -36,6 +36,8 @@
     });
 
 <br/>
+
+
 #### 2.POST请求（url链接，map参数, delegatel回调）：
     
     ShiDianHttp.POST(url, map, new ShiDianHttpDelegate() {
